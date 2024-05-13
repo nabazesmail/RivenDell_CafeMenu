@@ -3,7 +3,7 @@ import './App.css';
 
 // Dynamically import images
 const images = [];
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= 7; i++) {
   images.push(require(`./images/${i}.png`));
 }
 
